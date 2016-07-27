@@ -2,7 +2,7 @@
 //  SwiftMVVMTests.swift
 //  SwiftMVVMTests
 //
-//  Created by liyang on 16/7/27.
+//  Created by yayanyang on 16/7/27.
 //  Copyright © 2016年 SwiftMVVM. All rights reserved.
 //
 

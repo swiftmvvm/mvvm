@@ -1,12 +1,15 @@
-platform :ios, '8.0'
 use_frameworks!
 
 workspace 'SwiftMVVM'
 
+pod 'RxSwift','~> 2.0'
+pod 'Action', '~> 1.2.2'
+pod 'RxCocoa', '~> 2.5.0'
+
 target 'SwiftMVVM' do
     project 'SwiftMVVM/SwiftMVVM.xcodeproj'
+end
 
-    pod 'RxSwift','~> 2.0'
-    pod 'Action', '~> 1.2.2'
-    pod 'RxCocoa', '~> 2.5.0'
+target 'SwiftMVVMTests' do
+    project 'SwiftMVVM/SwiftMVVM.xcodeproj'
 end
